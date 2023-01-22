@@ -1,16 +1,14 @@
-import { Habit } from "./components/Habits";
+import { Header } from "./components/Header";
+import { SummaryTable } from "./components/SummaryTable";
+import "./styles/global.css";
 
-function App() {
-  // prettier-ignore
+export function App() {
   return (
-  <div>
-    <Habit completed={3}/>
-    <Habit completed={10}/>
-    <Habit completed={2}/>
-    <Habit completed={41241241}/>
-    <Habit completed={33}/>
-    <Habit completed={333333}/>
-  </div>);
+    <div className="w-screen h-screen flex justify-center items-center">
+      <div className="w-full max-w-5xl px-6 flex flex-col gap-16">
+        <Header />
+        <SummaryTable />
+      </div>
+    </div>
+  );
 }
-
-export default App;
