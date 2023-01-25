@@ -1,0 +1,8 @@
+{
+  "apps": [
+    {
+      "name": "nlw-web",
+      "script": "dev"
+    }
+  ]
+}

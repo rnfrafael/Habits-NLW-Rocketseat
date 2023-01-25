@@ -1,0 +1,16 @@
+{
+  apps: [
+      {
+          name: "NodeServer",
+          script: "npm",
+          automation: false,
+          args: "run shivkumarscript",
+          env: {
+              NODE_ENV: "development"
+          },
+          env_production: {
+              NODE_ENV: "production"
+          }
+      }
+  ]
+}

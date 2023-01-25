@@ -1,6 +1,6 @@
 import "./src/lib/dayjs";
 import { StatusBar } from "react-native";
-import Loading from "./src/components/Loading";
+import { Loading } from "./src/components/Loading";
 import {
   useFonts,
   Inter_400Regular,
